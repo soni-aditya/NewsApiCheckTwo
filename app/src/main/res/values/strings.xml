@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">NewsApi Check Two</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="title">
+        <item>"Title One"</item>
+        <item>"Title Two"</item>
+        <item>"Title Three"</item>
+    </string-array>
+    <string-array name="author">
+        <item>"Author 1"</item>
+        <item>"Athour 2"</item>
+        <item>"Author 3"</item>
+    </string-array>
+    <string-array name="discription">
+        <item>"Thisi  is some description"</item>
+        <item>"This i ssonme ansdoew pckrer"</item>
+        <item>"thsdfj dfow ooweerjreij croetroeit "</item>
+    </string-array>
+</resources>
