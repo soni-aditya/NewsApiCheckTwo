@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.ArrayList;
 
 /**
@@ -33,6 +35,7 @@ public class HeadlineAdapter extends RecyclerView.Adapter<HeadlineAdapter.HeadLi
     public void onBindViewHolder(HeadLineViewHolder holder, int position) {
         News n=news.get(position);
         //holder.news_img.setImageResource(R.drawable.i2);
+        Picasso.with(this.context).load(n.getImage_id()).resize(200,200).into(holder.news_img);
         holder.news_title.setText(n.getTitle());
         holder.news_author.setText(n.getAuthor());
     }
