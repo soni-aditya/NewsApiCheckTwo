@@ -32,7 +32,7 @@ public class HeadlineAdapter extends RecyclerView.Adapter<HeadlineAdapter.HeadLi
     @Override
     public void onBindViewHolder(HeadLineViewHolder holder, int position) {
         News n=news.get(position);
-        holder.news_img.setImageResource(n.getImage_id());
+        //holder.news_img.setImageResource(R.drawable.i2);
         holder.news_title.setText(n.getTitle());
         holder.news_author.setText(n.getAuthor());
     }

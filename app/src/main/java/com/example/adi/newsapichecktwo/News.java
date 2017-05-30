@@ -5,17 +5,17 @@ package com.example.adi.newsapichecktwo;
  */
 
 public class News {
-    public News(int image_id,String title,String author,String discription){
+    public News(String image_id, String title, String author, String discription){
         this.setImage_id(image_id);
         this.setAuthor(author);
         this.setTitle(title);
         this.setDiscription(discription);
     }
-    public int getImage_id() {
+    public String getImage_id() {
         return image_id;
     }
 
-    public void setImage_id(int image_id) {
+    public void setImage_id(String image_id) {
         this.image_id = image_id;
     }
 
@@ -43,6 +43,6 @@ public class News {
         this.discription = discription;
     }
 
-    private int image_id;
+    private String image_id;
     private String title,author,discription;
 }
